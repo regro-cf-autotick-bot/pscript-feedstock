@@ -1,6 +1,6 @@
 {% set name = "pscript" %}
-{% set version = "0.7.7" %}
-{% set sha256 = "8632f7a4483f235514aadee110edee82eb6d67336bf68744a7b18d76e50442f8" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "d24e72a077c0fd37d2043c60de8742531273500ccfe9ff6d22269685f1edd1d8" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
